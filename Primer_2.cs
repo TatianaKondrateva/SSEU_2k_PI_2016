@@ -8,21 +8,54 @@ namespace Primer_2
     {
         static void Main(string[] args)
         {
-            int A, B;
-            int.TryParse(Console.ReadLine(), out A);
-            int.TryParse(Console.ReadLine(), out B);
-            int Max;
-            if (A >= B)
+            int A, B, C;
+            if (int.TryParse(Console.ReadLine(), out A))
             {
-                Max = A;
+                if (int.TryParse(Console.ReadLine(), out B))
+                {
+                    if (int.TryParse(Console.ReadLine(), out C))
+                    {
+                        int Max;
+                        if ((A >= B) && (A >= C))
+                        {
+                            Max = A;
+                        }
+                        else if ((B >= A) && (B >= C))
+                        {
+                            Max = B;
+                        }
+                        else 
+                        {
+                            Max = C;
+                         };
+                      
+                        Console.WriteLine("Максимальное число = " + Max);
+                        }
+                    else
+                   {
+                    Console.WriteLine("Неверное значение! Нужно ввести целое число.");
+                   };
+                }
+                else
+                {
+                    Console.WriteLine("Неверное значение! Нужно ввести целое число.");
+                };
             }
             else
             {
-                Max = B;
+                Console.WriteLine("Неверное значение! Нужно ввести целое число.");
             };
-            Console.WriteLine("Максимальное число = " + Max);
             Console.ReadKey();
-
         }
     }
 }
+    
+
+
+       
+
+
+    
+
+
+
