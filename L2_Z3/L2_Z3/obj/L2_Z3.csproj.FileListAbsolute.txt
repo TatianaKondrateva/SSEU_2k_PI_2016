@@ -1,0 +1,5 @@
+G:\VS 2005\1\SSEU_mg_2kurs_kise_new\L2_Z3\L2_Z3\bin\Debug\L2_Z3.exe
+G:\VS 2005\1\SSEU_mg_2kurs_kise_new\L2_Z3\L2_Z3\bin\Debug\L2_Z3.pdb
+G:\VS 2005\1\SSEU_mg_2kurs_kise_new\L2_Z3\L2_Z3\obj\Debug\ResolveAssemblyReference.cache
+G:\VS 2005\1\SSEU_mg_2kurs_kise_new\L2_Z3\L2_Z3\obj\Debug\L2_Z3.exe
+G:\VS 2005\1\SSEU_mg_2kurs_kise_new\L2_Z3\L2_Z3\obj\Debug\L2_Z3.pdb
